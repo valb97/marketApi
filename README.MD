@@ -18,7 +18,7 @@ Este es el backend de un supermercado, desarrollado con **Node.js** y **Express*
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
+   git clone https://github.com/valb97/marketApi.git
    ```
 2. Ingresa al directorio del proyecto:
    ```bash
@@ -55,9 +55,6 @@ Authorization: Bearer <tu_token>
 - Implementación de **Rate Limiting** para prevenir abusos.
 - Soporte para **roles y permisos**.
 - Integración con una base de datos estable.
-
-## 🤝 Contribución
-Si quieres contribuir, ¡será bienvenido! Haz un **fork**, crea una rama con tu mejora y abre un PR.
 
 ---
 **Desarrollado 💻 por ValentinB (https://github.com/valb97)**
