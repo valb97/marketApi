@@ -1,0 +1,21 @@
+{
+  "name": "marketapi",
+  "version": "1.0.0",
+  "description": "back end api for modelling an  online supermaket ",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "type": "module",
+  "author": "valb97",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.9",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
