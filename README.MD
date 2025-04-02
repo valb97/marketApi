@@ -6,7 +6,7 @@ Este es el backend de un supermercado, desarrollado con **Node.js** y **Express*
 - **Node.js**
 - **Express**
 - **JWT (JSON Web Token) para autenticación**
-- ***SQLITE*
+- **SQLITE**
 
 ## 🔑 Características
 - Registro e inicio de sesión con **tokens JWT**.
