@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import authRoute from './routes/authRoute.js';
 import productRoute from './routes/productRoute.js';
+import userRoute from './routes/userRoute.js'
 import initDB from './database/database.js';
 
 dotenv.config();
@@ -15,6 +16,8 @@ app.use(express.json());
 
 app.use('/api', authRoute);
 app.use('/api', productRoute);
+app.use('/api', userRoute);
+app.use('/uploads', express.static('uploads'));
 
 initDB().then((db) => {
     app.set('db', db);

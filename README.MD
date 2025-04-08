@@ -1,6 +1,10 @@
 # 🛒 Supermarket Backend
 
-Este es el backend de un supermercado, desarrollado con **Node.js** y **Express**. Proporciona autenticación con tokens y funcionalidades básicas para la gestión de productos y usuarios. A futuro, se implementará un **Rate Limiter** para mejorar la seguridad y el rendimiento.
+Este es el backend de un supermercado, desarrollado con **Node.js** y **Express**. Proporciona autenticación con tokens y funcionalidades básicas para la gestión de productos y usuarios.
+
+Tiene verificacion por token. Para usar un front consultar el proyecto: [https://github.com/valb97/superMiniFront]
+
+
 
 ## 🚀 Tecnologías
 - **Node.js**
